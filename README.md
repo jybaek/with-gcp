@@ -3,6 +3,11 @@
 *GCP( Google Cloud Platform )*를 공부한 내용을 바탕으로 정보를 공유합니다. 클라우드 시장의 점유율이 상대적으로 낮기 때문에
 좋은 자료나 최신 글을 찾아보기 힘든데 여기 *GitBook* 이 많은 분들에게 도움이 될 수 있기를 바랍니다.
 
+아래는 가트너에서 2018년도에 발표한 클라우드 IaaS 의 영향도를 나타낸 사분면입니다.
+작년까지만해도 4사분면에 있던 *GCP* 가 *leader* 에 포함되었네요. 그만큼 세계적인 관심을 받고 있으며
+빠르게 성장하고 있다는 의미입니다.
+![png](https://zdnet1.cbsistatic.com/hub/i/r/2018/05/23/42a0e1b3-1500-436c-af05-ba02bec87fd3/resize/770xauto/f09abc28f0cf9395a2e3a6ef5201cfa5/gartner-iaas-mq-april-2018.png)
+
 ## GitBook 주소
 https://jybaek.gitbook.io/with-gcp
 
