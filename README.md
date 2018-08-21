@@ -8,6 +8,9 @@
 빠르게 성장하고 있다는 의미입니다.
 ![png](https://zdnet1.cbsistatic.com/hub/i/r/2018/05/23/42a0e1b3-1500-436c-af05-ba02bec87fd3/resize/770xauto/f09abc28f0cf9395a2e3a6ef5201cfa5/gartner-iaas-mq-april-2018.png)
 
+정보 공유나 스터디를 원하시는 분들은 [구글 클라우드 사용자 그룹](https://www.facebook.com/groups/googlecloudkorea/), 혹은 다양한 채널을 통해
+소통하실 수 있습니다. 그럼 함께 하시길 기대하겠습니다.
+
 ## GitBook 주소
 https://jybaek.gitbook.io/with-gcp
 
