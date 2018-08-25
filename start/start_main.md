@@ -1,6 +1,6 @@
 *GCP(Google Cloud Platform)* 를 사용하는 과정을 기록하도록 한다. 본편에서는 가입하는 과정에 대해 기술하고, 이후부터 API 사용법 등에 대해 다뤄보도록 하겠다.
 우선 사용을 위해 cloud.google.com 으로 접속을 한다. 필요하다면 구글 계정으로 로그인을 하고 아래 **TRY IT FREE** 버튼을 클릭하도록 하자.
-![png](https://t1.daumcdn.net/cfile/tistory/22123B4058E1E44630)
+<img src="https://t1.daumcdn.net/cfile/tistory/22123B4058E1E44630)" width="100%">
 
 다음 화면에서 국가를 입력하고 여러가지에 대해 동의하도록 한다. (동의하지 않으면 계속 진행할 수가 없다.)
 ![png](https://t1.daumcdn.net/cfile/tistory/2420924458E1E4542B)
