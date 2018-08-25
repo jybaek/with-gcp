@@ -1,6 +1,7 @@
 # Table of contents
 
 * [소개](README.md)
+* [시작하기](start/start_main.md)
 * [IAM & admin](account_page.md)
 * [컴퓨팅](compute/compute_main.md)
     * [App Engine](compute/app_engine.md)
