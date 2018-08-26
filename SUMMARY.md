@@ -2,11 +2,11 @@
 
 * [소개](README.md)
 * [시작하기](start/start_main.md)
-* [IAM & admin](account_page.md)
+* IAM & admin
 * [컴퓨팅](compute/compute_main.md)
-    * [App Engine](compute/app_engine.md)
-    * [Compute Engine](compute/app_engine.md)
-    * [Kubernetes Engine](compute/app_engine.md)
+    * App Engine
+    * Compute Engine
+    * Kubernetes Engine
     * [Cloud Functions](compute/cloud_functions.md)
 * [저장소](storage/storage_main.md)
     * Bigtable
