@@ -19,7 +19,7 @@
   * GitHub
     * https://github.com/jybaek/with-gcp
   * 문의
-    * oops.jybaek@gmail.com
+    * [oops.jybaek@gmail.com](mailto:oops.jybaek@gmail.com)
 
 ## Contributions
 프로젝트 참여나 오탈자 수정은  [여기][1] 링크를 참고해서 기여해주시면 됩니다.
