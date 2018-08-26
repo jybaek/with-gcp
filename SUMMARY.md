@@ -1,14 +1,14 @@
 # Table of contents
 
 * [소개](README.md)
-* [시작하기](start/start_main.md)
+* [시작하기](start/README.md)
 * IAM & admin
 * [컴퓨팅](compute/README.md)
    * App Engine
    * Compute Engine
    * Kubernetes Engine
    * [Cloud Functions](compute/cloud_functions.md)
-* [저장소](storage/storage_main.md)
+* [저장소](storage/README.md)
    * Bigtable
    * Datastore
    * Firestore
@@ -17,26 +17,26 @@
    * Spanner
    * Memorystore
    * Filestore
-* [네트워킹](networking/networking_main.md)
+* [네트워킹](networking/README.md)
    * VPC 네트워크
    * 네트워크 서비스
    * 하이브리드 연결
    * 네트워크 서비스 계층
    * 네트워크 보안
-* [STACKDRIVER](stackdriver/stackdriver_main.md)
+* [STACKDRIVER](stackdriver/README.md)
    * 모니터링
    * 디버그
    * 추적
    * 로그기록
    * 오류 신고
    * 프로파일러
-* [도구](tools/tools_main.md) 
+* [도구](tools/README.md) 
    * Cloud 빌드
    * Container Registry
    * 소스 저장소
    * 배포 관리자
    * Endpoints
-* [빅 데이터](bigdata/bigdata_main.md)
+* [빅 데이터](bigdata/README.md)
    * BigQuery
    * 게시/구독
    * Dataproc
@@ -45,7 +45,7 @@
    * Composer
    * Genomics
    * Dataprep
-* [인공지능](artificial_intelligence/artificial_intelligence_main.md)
+* [인공지능](artificial_intelligence/README.md)
    * 작업 검색
    * ML 엔진
    * Natural Language
