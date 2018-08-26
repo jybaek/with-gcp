@@ -7,7 +7,7 @@
     * [App Engine](compute/app_engine.md)
     * [Compute Engine](compute/app_engine.md)
     * [Kubernetes Engine](compute/app_engine.md)
-    * [Cloud Functions](compute/app_engine.md)
+    * [Cloud Functions](compute/cloud_functions.md)
 * [저장소](storage/storage_main.md)
     * Bigtable
     * Datastore
