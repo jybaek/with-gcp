@@ -3,7 +3,7 @@
 * [소개](README.md)
 * [시작하기](start/start_main.md)
 * IAM & admin
-* [컴퓨팅](compute/compute_main.md)
+* [컴퓨팅](compute/README.md)
   * App Engine
   * Compute Engine
   * Kubernetes Engine
