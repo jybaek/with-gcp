@@ -14,9 +14,12 @@
 혹은 다양한 채널을 통해 소통하실 수 있습니다. 그럼 함께 하시길 기대하겠습니다.
 
 ## Link
-  * GitBook : https://jybaek.gitbook.io/with-gcp
-  * GitHub  : https://github.com/jybaek/with-gcp
-  * 문의    : oops.jybaek@gmail.com
+  * GitBook
+    * https://jybaek.gitbook.io/with-gcp
+  * GitHub
+    * https://github.com/jybaek/with-gcp
+  * 문의
+    * oops.jybaek@gmail.com
 
 ## Contributions
 프로젝트 참여나 오탈자 수정은  [여기][1] 링크를 참고해서 기여해주시면 됩니다.
