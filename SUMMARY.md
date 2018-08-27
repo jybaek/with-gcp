@@ -1,56 +1,58 @@
 # Table of contents
+
 * [소개](README.md)
-* [시작하기](start/README.md)
-* IAM & admin
+* [시작하기](start.md)
+* [IAM & admin](iam-and-admin.md)
 * [컴퓨팅](compute/README.md)
-    * App Engine
-    * [Compute Engine](compute/compute_engine.md)
-    * Kubernetes Engine
-    * [Cloud Functions](compute/cloud_functions.md)
+  * [App Engine](compute/app-engine.md)
+  * [Compute Engine](compute/compute_engine.md)
+  * [Kubernetes Engine](compute/kubernetes-engine.md)
+  * [Cloud Functions](compute/cloud_functions.md)
 * [저장소](storage/README.md)
-    * Bigtable
-    * Datastore
-    * Firestore
-    * [Storage](storage/storage.md)
-    * SQL
-    * Spanner
-    * Memorystore
-    * Filestore
+  * [Bigtable](storage/bigtable.md)
+  * [Datastore](storage/datastore.md)
+  * [Firestore](storage/firestore.md)
+  * [Storage](storage/storage.md)
+  * [SQL](storage/sql.md)
+  * [Spanner](storage/spanner.md)
+  * [Memorystore](storage/memorystore.md)
+  * [Filestore](storage/filestore.md)
 * [네트워킹](networking/README.md)
-    * VPC 네트워크
-    * 네트워크 서비스
-    * 하이브리드 연결
-    * 네트워크 서비스 계층
-    * 네트워크 보안
+  * [VPC 네트워크](networking/vpc.md)
+  * [네트워크 서비스](networking/undefined.md)
+  * [하이브리드 연결](networking/undefined-1.md)
+  * [네트워크 서비스 계층](networking/undefined-2.md)
+  * [네트워크 보안](networking/undefined-3.md)
 * [STACKDRIVER](stackdriver/README.md)
-    * 모니터링
-    * 디버그
-    * 추적
-    * 로그기록
-    * 오류 신고
-    * 프로파일러
-* [도구](tools/README.md) 
-    * Cloud 빌드
-    * Container Registry
-    * [소스 저장소](tools/source_repositories.md)
-    * 배포 관리자
-    * Endpoints
+  * [모니터링](stackdriver/undefined.md)
+  * [디버그](stackdriver/undefined-1.md)
+  * [추적](stackdriver/undefined-2.md)
+  * [로그기록](stackdriver/undefined-3.md)
+  * [오류 신고](stackdriver/undefined-4.md)
+  * [프로파일러](stackdriver/undefined-5.md)
+* [도구](tools/README.md)
+  * [Cloud 빌드](tools/cloud.md)
+  * [Container Registry](tools/container-registry.md)
+  * [소스 저장소](tools/source_repositories.md)
+  * [배포 관리자](tools/undefined.md)
+  * [Endpoints](tools/endpoints.md)
 * [빅 데이터](bigdata/README.md)
-    * BigQuery
-    * 게시/구독
-    * Dataproc
-    * Dataflow
-    * IoT 코어
-    * Composer
-    * Genomics
-    * Dataprep
+  * [BigQuery](bigdata/bigquery.md)
+  * [게시/구독](bigdata/undefined.md)
+  * [Dataproc](bigdata/dataproc.md)
+  * [Dataflow](bigdata/dataflow.md)
+  * [IoT 코어](bigdata/iot.md)
+  * [Composer](bigdata/composer.md)
+  * [Genomics](bigdata/genomics.md)
+  * [Dataprep](bigdata/dataprep.md)
 * [인공지능](artificial_intelligence/README.md)
-    * 작업 검색
-    * [ML 엔진](artificial_intelligence/ml_engine/README.md)
-        * [개념](artificial_intelligence/ml_engine/concept.md)
-        * 기본
-        * 실전 심화
-        * 분산학습 아키텍처
-    * Natural Language
-    * Translation
-    * Vision
+  * [작업 검색](artificial_intelligence/undefined.md)
+  * [ML 엔진](artificial_intelligence/ml_engine/README.md)
+    * [개념](artificial_intelligence/ml_engine/concept.md)
+    * [기본](artificial_intelligence/ml_engine/undefined.md)
+    * [실전 심화](artificial_intelligence/ml_engine/undefined-1.md)
+    * [분산학습 아키텍처](artificial_intelligence/ml_engine/undefined-2.md)
+  * [Natural Language](artificial_intelligence/natural-language.md)
+  * [Translation](artificial_intelligence/translation.md)
+  * [Vision](artificial_intelligence/vision.md)
+
