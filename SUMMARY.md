@@ -11,7 +11,7 @@
    * Bigtable
    * Datastore
    * Firestore
-   * Storage
+   * [Storage](storage/storage.md)
    * SQL
    * Spanner
    * Memorystore
