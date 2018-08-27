@@ -32,7 +32,7 @@
 * [도구](tools/README.md) 
    * Cloud 빌드
    * Container Registry
-   * 소스 저장소
+   * [소스 저장소](tools/source_repositories.md)
    * 배포 관리자
    * Endpoints
 * [빅 데이터](bigdata/README.md)
