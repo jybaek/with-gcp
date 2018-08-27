@@ -47,10 +47,10 @@
 * [인공지능](artificial_intelligence/README.md)
    * 작업 검색
    * ML 엔진
-     * 개념
-     * 기본
-     * 실전 심화
-     * 분산학습 아키텍처
+       * [개념](artificial_intelligence/ml_engine/concept.md)
+       * 기본
+       * 실전 심화
+       * 분산학습 아키텍처
    * Natural Language
    * Translation
    * Vision
