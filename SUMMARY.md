@@ -46,7 +46,7 @@
     * Dataprep
 * [인공지능](artificial_intelligence/README.md)
     * 작업 검색
-    * ML 엔진
+    * [ML 엔진](artificial_intelligence/ml_engine/README.md)
         * [개념](artificial_intelligence/ml_engine/concept.md)
         * 기본
         * 실전 심화
