@@ -4,7 +4,7 @@
 * IAM & admin
 * [컴퓨팅](compute/README.md)
    * App Engine
-   * Compute Engine
+   * [Compute Engine](compute/compute_engine.md)
    * Kubernetes Engine
    * [Cloud Functions](compute/cloud_functions.md)
 * [저장소](storage/README.md)
