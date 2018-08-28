@@ -55,4 +55,5 @@
   * [Natural Language](artificial_intelligence/natural-language.md)
   * [Translation](artificial_intelligence/translation.md)
   * [Vision](artificial_intelligence/vision.md)
-
+* [부록](appendix/README.md)
+  * [CloudML vs GCE](appendix/cloudml_vs_gce.md)
