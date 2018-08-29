@@ -58,3 +58,4 @@
 * [부록](appendix/README.md)
   * [용어사전](appendix/glossary.md)
   * [CloudML vs GCE](appendix/cloudml_vs_gce.md)
+  * [인스턴스에 SSH로 접속하기](appendix/gce_to_ssh.md)
