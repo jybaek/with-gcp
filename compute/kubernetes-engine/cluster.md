@@ -1,6 +1,6 @@
 # cluster 생성
 
-[Container Engine 의 기본 개념](undefined.md)에 대해서 살펴보았고 이번에는 Google Cloud Platform \(GCP\) 에서 Container Engine 을 사용하기 위한 준비단계에 대해서 다뤄보도록 한다. 과정중에 Kubernetes 의 내부를 간단한 다이어그램을 통해 살펴볼 것이다. 우선 Cluster 라는 것을 생성하기 위해 다음 화면과 같이 좌측 메뉴에서 **\[Container Engine\]** 카테고리를 선택하도록 하자.
+[Container Engine 의 기본 개념](concept.md)에 대해서 살펴보았고 이번에는 Google Cloud Platform \(GCP\) 에서 Container Engine 을 사용하기 위한 준비단계에 대해서 다뤄보도록 한다. 과정중에 Kubernetes 의 내부를 간단한 다이어그램을 통해 살펴볼 것이다. 우선 Cluster 라는 것을 생성하기 위해 다음 화면과 같이 좌측 메뉴에서 **\[Container Engine\]** 카테고리를 선택하도록 하자.
 
 ![](https://t1.daumcdn.net/cfile/tistory/243CC742596555D618)
 
@@ -45,7 +45,9 @@ gcloud components install kubectl  명령어를 통해 kubectl 을 인스톨 하
 
 ![](https://t1.daumcdn.net/cfile/tistory/2729F638596555E31A)
 
-Starting to serve on 127.0.0.1:8001 이라는 메시지가 보이지만 실제로 GUI 에 접근하기 위해서는 127.0.0.1:8001/ui 까지 입력해줘야 한다. 이제 브라우저를 열고 주소를 입력해보자. 다음과 같이 Kubernetes 화면을 볼 수 있을 것이다.![](https://t1.daumcdn.net/cfile/tistory/2264C738596555E014)
+Starting to serve on 127.0.0.1:8001 이라는 메시지가 보이지만 실제로 GUI 에 접근하기 위해서는 127.0.0.1:8001/ui 까지 입력해줘야 한다. 이제 브라우저를 열고 주소를 입력해보자. 다음과 같이 Kubernetes 화면을 볼 수 있을 것이다.
+
+![](https://t1.daumcdn.net/cfile/tistory/2264C738596555E014)
 
 Kubernetes GUI 를 통해 다양한 설정과 모니터링이 가능하다. 상당히 편리한 부분이고 가시성이 좋지만 우리는 터미널의 명령어와 친해질 필요가 있다. 이유는 간단하다. 그것이 시스템의 내부구조를 이해하는 가장 빠른 방법이기 때문이다. 그렇기 때문에 다음 편에서는 간단한 앱을 터미널을 통해 배포하는 예제를 실습하도록 하겠다.
 

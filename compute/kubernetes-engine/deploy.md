@@ -86,21 +86,19 @@ $ gcloud docker -- push gcr.io/PROJECT_ID/hello-node:v1
 
 클라우드 콘솔에서 확인해보도록 하자. TOOLS 밑에서 Container Registry 를 확인할 수 있다.
 
-![](https://t1.daumcdn.net/cfile/tistory/99D828395AEED1EA0B)Container Registry
+![Container Registry](https://t1.daumcdn.net/cfile/tistory/99D828395AEED1EA0B)
 
-아래처럼 우리가 추가한 hello-node 앱을 확인할 수 있다.  
+아래처럼 우리가 추가한 hello-node 앱을 확인할 수 있다.
 
+![Container Registry](https://t1.daumcdn.net/cfile/tistory/9984303E5AEED22609)
 
-![](https://t1.daumcdn.net/cfile/tistory/9984303E5AEED22609)Container Registry
+앱 이름 \( hello-node \) 을 클릭하고 들어가면 버전\(v1\)을 포함한 상세 정보를 볼 수 있다.
 
-앱 이름 \( hello-node \) 을 클릭하고 들어가면 버전\(v1\)을 포함한 상세 정보를 볼 수 있다.  
-
-
-![](https://t1.daumcdn.net/cfile/tistory/99C6433B5AEED28D0A)Container Registry
+![Container Registry](https://t1.daumcdn.net/cfile/tistory/99C6433B5AEED28D0A)
 
 ## 클러스터 생성
 
-이제 여러개의 노드[1](http://jybaek.tistory.com/739?category=696494#footnote_739_1)를 관리할 수 있는 클러스터를 아래와 같이 클라우드 셸에서 생성하도록 한다. 이때 클러스터는 도커 이미지가 있는 GCR 과 같은 영역에 만드는 것을 좋다고 한다.
+이제 여러개의 노드를 관리할 수 있는 클러스터를 아래와 같이 클라우드 셸에서 생성하도록 한다. 이때 클러스터는 도커 이미지가 있는 GCR 과 같은 영역에 만드는 것을 좋다고 한다.
 
 ```text
 $ gcloud container clusters create hello-world \
@@ -111,12 +109,11 @@ $ gcloud container clusters create hello-world \
 
 클러스터는 2개의 노드를 n1-standard-1 타입으로 us-central1-f 에 갖게된다. 여기서의 노드는 도커가 아닌 실제 인스턴스의 개념이다. 노드의 개수에 따라 인스턴스가 생성되며 비용이 발생하기 때문에 주의하도록 하자. 다음과 같이 콘솔에서 생성된 인스턴스를 확인할 수 있다.
 
-![](https://t1.daumcdn.net/cfile/tistory/9937CE415AEED4DB19)Compute Engine
+![Compute Engine](https://t1.daumcdn.net/cfile/tistory/9937CE415AEED4DB19)
 
-그리고 방금 생성한 클러스터는 Kubernetes Engine 카테고리에서 확인할 수 있다. 클라우드 셸과 같은 터미널에서도 모든 설정을 편집할 수 있지만 아래 보이는 콘솔\( GUI \)을 통해서도 모든 설정이 가능하다는 것을 알 수 있다. 다만, 개발의 특성상 터미널 명령어가 약간은 더 빠르게 개선되고 업데이트되는 것은 어쩔 수 없다. 가령 예를들어 새로운 기능이 나오게 되면 화면상으로 노출은 되지 않지만 터미널에서는 beta 를 달고 출시되기도 한다.  
+그리고 방금 생성한 클러스터는 Kubernetes Engine 카테고리에서 확인할 수 있다. 클라우드 셸과 같은 터미널에서도 모든 설정을 편집할 수 있지만 아래 보이는 콘솔\( GUI \)을 통해서도 모든 설정이 가능하다는 것을 알 수 있다. 다만, 개발의 특성상 터미널 명령어가 약간은 더 빠르게 개선되고 업데이트되는 것은 어쩔 수 없다. 가령 예를들어 새로운 기능이 나오게 되면 화면상으로 노출은 되지 않지만 터미널에서는 beta 를 달고 출시되기도 한다.
 
-
-![](https://t1.daumcdn.net/cfile/tistory/993991415AEED52A09)Kubernetes Engine
+![Kubernetes Engine](https://t1.daumcdn.net/cfile/tistory/993991415AEED52A09)
 
 이제 kubectl 명령어를 통해 앞서 생성했던 도커 컨테이너로 생성해둔 앱을 배포하도록 하자.  
 
@@ -165,7 +162,7 @@ hello-node-6f87f9797c-czt5t   1/1       Running   0          3m
 
 클라우드 콘솔에서도 생성된 pod 에 대한 정보를 확인할 수 있다.
 
-![](https://t1.daumcdn.net/cfile/tistory/99F9A9365AEF8D7431)Kubernetes Engine
+![Kubernetes Engine](https://t1.daumcdn.net/cfile/tistory/99F9A9365AEF8D7431)
 
 ## 외부 트래픽 허용 
 
@@ -271,7 +268,7 @@ hello-node-6f87f9797c-czt5t   1/1       Running   0          42m
 
 혹시 앞서 NAME 을 유심히 본 사람이라면 뭔가 다른게 보일텐데 6f87f9797c 는 이전 리비전을 의미하고, 5559467cdb 는 새로운 버전을 의미한다. 즉, 순차적으로 롤링 업데이트가 이루어지고 있는 과정을 kubectl get pods 명령어로 확인이 되는 것이다. 해당 명령어를 반복적으로 입력해보자. 클라우드 콘솔에서도 해당 버전에 대한 정보를 얻을 수 있다.
 
-![](https://t1.daumcdn.net/cfile/tistory/99C5C03E5AEF96BF18)Kubernetes Engine
+![Kubernetes Engine](https://t1.daumcdn.net/cfile/tistory/99C5C03E5AEF96BF18)
 
  Revision history 부분을 유심히 보면 각 Name 이 어떤 GCR 을 참조하고 있는지 알 수 있다. 
 
